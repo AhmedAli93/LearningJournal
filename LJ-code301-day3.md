@@ -2,12 +2,12 @@
 
 We can then access the url parameters automatically on the ctx object by referencing ctx.params.id
 
-/user/:id/:cool/:turkey
-localhost:3000/user/3456/hi/coolturkey
+- /user/:id/:cool/:turkey
+- localhost:3000/user/3456/hi/coolturkey
 
-ctx.params.id = 3456
-ctx.params.cool = hi
-ctx.params.turkey = coolturkey 
+- ctx.params.id = 3456
+- ctx.params.cool = hi
+ -ctx.params.turkey = coolturkey 
 
  - MiddleWare
  - PageJS
